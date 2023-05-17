@@ -1,0 +1,6 @@
+.lead {
+  outline: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
