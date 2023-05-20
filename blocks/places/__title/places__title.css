@@ -1,0 +1,26 @@
+.places__title {
+  margin: 0;
+}
+
+/* .places__title {
+  margin: 0 16px 32px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 35px;
+}
+
+@media all and (min-width: 768px) {
+  .places__title {
+    margin: 0 0 48px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .places__title {
+    margin: 0 0 48px;
+    font-size: 72px;
+    line-height: 76px;
+  }
+} */
