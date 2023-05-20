@@ -1,5 +1,4 @@
 .photo-grid {
-  outline: 1px solid greenyellow;
   box-sizing: border-box;
   padding: 0 16px 64px;
   display: grid;
