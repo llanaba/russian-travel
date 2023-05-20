@@ -1,9 +1,12 @@
 .places__text-container {
-  margin: 32px 16px 50px;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 @media all and (min-width: 768px) {
   .places__text-container {
-    margin: 0 0 73px;
+    margin: 0;
   }
 }
