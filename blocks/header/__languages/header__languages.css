@@ -1,0 +1,18 @@
+.header__languages {
+  margin: 18px 0 6px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 18px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media all and (max-width: 425px) {
+  .header__languages {
+    margin: 14px 0 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+}

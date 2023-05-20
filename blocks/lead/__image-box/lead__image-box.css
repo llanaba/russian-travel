@@ -1,0 +1,18 @@
+.lead__image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media all and (min-width: 1024px) {
+  .lead__image-box {
+    width: 928px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .lead__image-box {
+    width: 984px;
+  }
+}

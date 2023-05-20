@@ -1,0 +1,25 @@
+.cover {
+  margin-bottom: 64px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media all and (min-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .cover {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}

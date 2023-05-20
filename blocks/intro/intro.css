@@ -1,0 +1,22 @@
+.intro {
+  box-sizing: border-box;
+  padding: 64px 16px;
+}
+
+@media all and (min-width: 768px) {
+  .intro {
+    padding: 88px 24px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .intro {
+    padding: 92px 48px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .intro {
+    padding: 92px 148px;
+  }
+}
