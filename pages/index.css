@@ -26,3 +26,8 @@
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__url/places__url.css);
 @import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__text-container/cover__text-container.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
