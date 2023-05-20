@@ -1,34 +1,20 @@
 .cover {
   outline: 1px solid violet;
   margin-bottom: 64px;
-  box-sizing: border-box;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background-image: url(../../images/cover-trains.jpg); */
-  /* background-size: cover; */
-  /* background-position: center; */
-}
-
-@media all and (min-width: 425px) {
-  .cover {
-    /* min-height: 480px; */
-  }
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media all and (min-width: 768px) {
   .cover {
     margin-bottom: 88px;
-    /* min-height: 480px; */
   }
 }
 
 @media all and (min-width: 1024px) {
   .cover {
     margin-bottom: 92px;
-    /* min-height: 640px; */
   }
 }
 
@@ -36,6 +22,5 @@
   .cover {
     margin-left: 48px;
     margin-right: 48px;
-    /* min-height: 740px; */
   }
 }
