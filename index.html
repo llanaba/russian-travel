@@ -5,24 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="pages/index.css">
-  <link rel="stylesheet" href="vendor/fonts.css">
 </head>
 <body class="page">
   <header class="page__header header">
     <img src="images/header-logo.svg" class="header__logo" alt="Логотип 'Россия'">
     <ul class="header__languages">
-      <li><a href="" class="header__lang-link header__lang-link_active">Ru</a></li>
-      <li><a href="" class="header__lang-link">En</a></li>
+      <li><a href="#" class="link link_active">Ru</a></li>
+      <li><a href="#" class="link">En</a></li>
     </ul>
   </header>
   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image-box">
+      <figure class="lead__image-box">
         <img src="images/lead-polka.jpg" class="lead__image" alt="Изображение женщины, спящей на полке в поезде">
-        <p class="lead__caption">ваша полка — верхняя</p>
-      </div>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
@@ -45,25 +44,61 @@
       </ul>
     </section>
     <section class="photo-grid" aria-label="Секция с фотографиями">
-      <img src="images/photo-grid-train.jpg" class="image" alt="Изображение деревьев в окне поезда">
-      <img src="images/photo-grid-atharva-tulsi.jpg" class="image" alt="Изображение облаков в синем небе, вид сверху">
-      <img src="images/photo-grid-tuman.jpg" class="image" alt="Изображение тумана в поле и стогов сена">
-      <img src="images/photo-grid-sochi.jpg" class="image" alt="Изображение хвойного леса, снятого с высоты птичьего полета">
-      <img src="images/photo-grid-arisa.jpg" class="image" alt="Изображение колеса автомобиля на прозрачном льду">
-      <img src="images/photo-grid-baikal.jpg" class="image" alt="Изображение озера с оранжевым песчаным берегом">
-      <img src="images/photo-grid-elbrus.jpg" class="image" alt="Изображение гор — Эльбрус">
-      <img src="images/photo-grid-kondratiev.jpg" class="image" alt="Изображение конусообразных белых штуковин">
-      <img src="images/photo-grid-kamchatka-1.jpg" class="image" alt="Изображение пейзажа Камчатки, снятого с высоты птичьего полета">
-      <img src="images/photo-grid-kamchatka-2.jpg" class="image" alt="Изображение пейзажа камчатки, гора">
-      <img src="images/photo-grid-baikal-2.jpg" class="image" alt="Изображение озера Байкал">
-      <img src="images/photo-grid-ergaki.jpg" class="image" alt="Изображение туманных гор">
+      <ul class="photo-grid__list">
+        <li>
+          <img src="images/photo-grid-train.jpg" class="image"
+            alt="Изображение деревьев в окне поезда">
+        </li>
+        <li>
+          <img src="images/photo-grid-atharva-tulsi.jpg" class="image"
+            alt="Изображение облаков в синем небе, вид сверху">
+        </li>
+        <li>
+          <img src="images/photo-grid-tuman.jpg" class="image"
+            alt="Изображение тумана в поле и стогов сена">
+        </li>
+        <li>
+          <img src="images/photo-grid-sochi.jpg" class="image"
+            alt="Изображение хвойного леса, снятого с высоты птичьего полета">
+        </li>
+        <li>
+          <img src="images/photo-grid-arisa.jpg" class="image"
+            alt="Изображение колеса автомобиля на прозрачном льду">
+        </li>
+        <li>
+          <img src="images/photo-grid-baikal.jpg" class="image"
+            alt="Изображение озера с оранжевым песчаным берегом">
+        </li>
+        <li>
+          <img src="images/photo-grid-elbrus.jpg" class="image"
+            alt="Изображение гор — Эльбрус">
+        </li>
+        <img src="images/photo-grid-kondratiev.jpg" class="image"
+          alt="Изображение конусообразных белых штуковин">
+        <li>
+          <img src="images/photo-grid-kamchatka-1.jpg" class="image"
+            alt="Изображение пейзажа Камчатки, снятого с высоты птичьего полета">
+        </li>
+        <li>
+          <img src="images/photo-grid-kamchatka-2.jpg" class="image"
+            alt="Изображение пейзажа камчатки, гора">
+        </li>
+        <li>
+          <img src="images/photo-grid-baikal-2.jpg" class="image"
+            alt="Изображение озера Байкал">
+        </li>
+        <li>
+          <img src="images/photo-grid-ergaki.jpg" class="image"
+            alt="Изображение туманных гор">
+        </li>
+      </ul>
     </section>
     <section class="places">
-      <div class="places__place">
+      <article class="places__place">
         <h2 class="places__title">Куршская коса</h2>
         <div class="places__website">
           <p class="places__url">url</p>
-          <a href="http://park-kosa.ru" class="places__link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" class="link link_active places__link">park-kosa.ru</a>
         </div>
         <img src="images/place-kosa.jpg" class="image" alt="Изображение Куршской косы">
         <div class="places__text-container">
@@ -81,14 +116,14 @@
             природы и запах стального, прохладного моря.
           </p>
         </div>
-      </div>
-      <div class="places__place">
+      </article>
+      <article class="places__place">
         <h2 class="places__title">Кольский</h2>
         <div class="places__website">
           <p class="places__url">url</p>
           <a
             href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-            class="places__link">National Geographic
+            class="link link_active places__link">National Geographic
           </a>
         </div>
         <img src="images/place-kolsky.jpg" class="image" alt="Изображение ландшафта Кольского полуострова">
@@ -107,14 +142,14 @@
             с билетом в Мурманск.
           </p>
         </div>
-      </div>
-      <div class="places__place">
+      </article>
+      <article class="places__place">
         <h2 class="places__title">Алтай</h2>
         <div class="places__website">
           <p class="places__url">url</p>
           <a
             href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
-            class="places__link">YouTube
+            class="link link_active places__link">YouTube
           </a>
         </div>
         <img src="images/place-altai.jpg" class="image" alt="Изображение ноутбука на фоне Алтайского леса">
@@ -132,14 +167,14 @@
             Алтайского края.
           </p>
         </div>
-      </div>
-      <div class="places__place">
+      </article>
+      <article class="places__place">
         <h2 class="places__title">Зимний Байкал</h2>
         <div class="places__website">
           <p class="places__url">url</p>
           <a
             href="https://vk.com/baikalmile"
-            class="places__link">https://vk.com/baikalmile
+            class="link link_active places__link">https://vk.com/baikalmile
           </a>
         </div>
         <img src="images/place-winter-baikal.jpg" class="image" alt="Изображение льда крупным планом">
@@ -155,14 +190,14 @@
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
           </p>
         </div>
-      </div>
-      <div class="places__place">
+      </article>
+      <article class="places__place">
         <h2 class="places__title">Карелия</h2>
         <div class="places__website">
           <p class="places__url">url</p>
           <a
             href="http://vodlozero.ru/"
-            class="places__link">http://vodlozero.ru/
+            class="link link_active places__link">http://vodlozero.ru/
           </a>
         </div>
         <img src="images/place-karelia.jpg" class="image" alt="Изображение Карельского озера">
@@ -177,46 +212,34 @@
             Чтобы все знали, кто тут хозяин.
           </p>
         </div>
-      </div>
+      </article>
     </section>
-    <!-- <section class="cover">
-      <div class="cover__overlay">
-        <div class="cover__text-container">
-          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.
-          </p>
-        </div>
-      </div>
-    </section> -->
     <section class="cover">
-      <div class="cover__overlay">
-        <div class="cover__text-container">
-          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.
-          </p>
-        </div>
-      </div>
+      <a class="link cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
+        <p class="cover__subtitle">
+          По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.
+        </p>
+      </a>
     </section>
   </main>
   <footer class="footer">
     <nav>
       <ul class="footer__menu-items">
         <li class="footer__menu-item">
-          <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
+          <a href="https://yandex.ru/maps" class="link">Карты</a>
         </li>
         <li class="footer__menu-item">
-          <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+          <a href="https://yandex.ru/pogoda" class="link">Погода</a>
         </li>
         <li class="footer__menu-item">
-          <a href="" class="footer__link">Расписание</a>
+          <a href="" class="link">Расписание</a>
         </li>
         <li class="footer__menu-item">
-          <a href="https://rasp.yandex.ru" class="footer__link">Календарь</a>
+          <a href="https://rasp.yandex.ru" class="link">Календарь</a>
         </li>
         <li class="footer__menu-item">
-          <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+          <a href="https://travel.yandex.ru" class="link">Путешествия</a>
         </li>
       </ul>
     </nav>
@@ -224,8 +247,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
-

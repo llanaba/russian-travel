@@ -1,10 +1,4 @@
 .places__link {
-  color: #fff;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: none;
-}
-
-.places__link:hover {
-  text-decoration: underline;
 }
